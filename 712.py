@@ -23,3 +23,5 @@ while(min < max):
     else:
        min = x + 1
 print(max)
+
+# тестовое изменение
