@@ -1,8 +1,8 @@
 shislo = str(input("Введите трёхзначное число"))
 
-if shislo[1] <= shislo[0] and shislo[2] <= shislo[0]:
+if int(shislo[1]) <= int(shislo[0]) and int(shislo[2]) <= int(shislo[0]):
     #1 цифра самое большая
-    if shislo[1] > shislo[2]:
+    if int(shislo[1]) > int(shislo[2]):
         #2 цифра поменьше
         otv = int(shislo[0]) + int(shislo[1])
     else:
@@ -10,11 +10,9 @@ if shislo[1] <= shislo[0] and shislo[2] <= shislo[0]:
         otv = int(shislo[0]) + int(shislo[2])
                                   
 
-
-
-if shislo[0] <= shislo[1] and shislo[2] <= shislo[1]:
+if int(shislo[0]) <= int(shislo[1]) and int(shislo[2]) <= int(shislo[1]):
     #2 цифра самое большая
-    if shislo[0] > shislo[2]:
+    if int(shislo[0]) > int(shislo[2]):
         #1 цифра поменьше
         otv = int(shislo[1]) + int(shislo[0])
     else:
@@ -22,11 +20,9 @@ if shislo[0] <= shislo[1] and shislo[2] <= shislo[1]:
         otv = int(shislo[1]) + int(shislo[2])
                                   
 
-
-
-if shislo[0] <= shislo[2] and shislo[1] <= shislo[2]:
+if int(shislo[0]) <= int(shislo[2]) and int(shislo[1]) <= int(shislo[2]):
     #3 цифра самое большая
-    if shislo[0] > shislo[1]:
+    if int(shislo[0]) > int(shislo[1]):
         #1 цифра поменьше
         otv = int(shislo[2]) + int(shislo[0])
     else:

@@ -1,8 +1,16 @@
-shislo = str(input("Введите трёхзначное число"))
+shislo = str(input("Введите трёхзначное число: "))
 
-if shislo[1] < shislo[0] and shislo[2] < shislo[0]:
-    print("1 цифра самое большая")
-if shislo[0] < shislo[1] and shislo[2] < shislo[1]:
-    print("2 цифра самое большая")
-if shislo[0] < shislo[2] and shislo[1] < shislo[2]:
-    print("3 цифра самое большая")
+if int(shislo[0]) > int(shislo[2]):
+    print("a) первая цифра больше последней")
+if int(shislo[2]) > int(shislo[0]):
+    print("a) последняя цифра больше первой")
+
+if int(shislo[0]) > int(shislo[1]):
+    print("b) первая цифра больше второй")
+if int(shislo[1]) > int(shislo[0]):
+    print("b) вторая цифра больше первой")
+
+if int(shislo[1]) > int(shislo[2]):
+    print("c) вторая цифра больше последней")
+if int(shislo[2]) > int(shislo[1]):
+    print("c) последняя цифра больше второй")
