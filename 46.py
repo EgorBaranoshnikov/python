@@ -5,25 +5,23 @@ strq = ""
 
 ind = 0
 x = "2.7182818284590452353602875"
-for i in range(stringsx + 2):
-   if stringsx == 0:
-      break
-   if stringsx == 25:
-      break
 
-   strq = strq + x[ind]
+
+for i in range(stringsx + 2):
+   strq += x[ind]
    ind += 1
-   if ind == stringsx + 2:
-      w = int(x[stringsx + 2])
-      if w >= 5:
-         b = int(x[stringsx + 2])
-         b = str(b)
-         strq = strq[:-1] + b
-for i in range(1):
-   if stringsx == 0:
-      print(3)
-      break
-   if stringsx == 25:
-      print(2.7182818284590452353602875)
-      break
+
+
+if stringsx == 0:
+   print("3")
+elif stringsx == 25:
+   print("2.7182818284590452353602875")
+else:
+   # Взять следующее число
+   posledneeChislo = int(x[ind])
+   # Если оно больше 4 то последнее число увеличить на 1
+   if posledneeChislo >= 5:
+      posl = str(int(strq[ind-1]) + 1)
+      strq = strq[:-1]
+      strq += posl
    print(strq)
