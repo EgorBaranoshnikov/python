@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: graph
+Version: 1.5.2
+Summary: Graph - tkinter-based framework for simple Python graphics
+Home-page: http://kpolyakov.spb.ru/school/probook/python.htm
+Download-URL: http://kpolyakov.spb.ru/school/probook/python.htm
+Author: Konstantin Polyakov
+Author-email: kpolyakov@mail.ru
+Maintainer: Konstantin Polyakov
+Maintainer-email: kpolyakov@mail.ru
+License: 
+        Licensed under MIT licence.
+            
+Keywords: application,framework,tkinter,graphics
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Other Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT licence
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: User Interfaces
+Requires: tkinter
+
+
+Graph: tkinter-based framework for simple graphics
+
+`Graph` is a **Python3.2+** library designed to simplifying
+coordinate graphics on the basis of tkinter library.

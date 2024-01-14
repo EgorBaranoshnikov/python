@@ -1,3 +1,4 @@
+
 fin  = open("input.txt")
 strings = fin.readlines()
 mas = strings[1].split()
