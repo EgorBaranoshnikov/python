@@ -1,5 +1,5 @@
 a = ["H", "H", "B"]
-for i in range(20):
+for i in range(22):
     a.append('H')
     p = 2
     for i in range((len(a) - 1) * 2 + 1 - len(a)):
@@ -12,7 +12,7 @@ for i in range(20):
 
 import turtle
 turtle.shape("turtle")
-size = 10
+size = 1
 indi = 0
 #turtle.left(90)
 turtle.forward(size)
