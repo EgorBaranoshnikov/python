@@ -17,3 +17,4 @@ else:
     otv1 = int((max // (max / 2)) + 1)
 otv2 = min
 print(str(otv1)+ " " +str(otv2))
+# YTELFXF
