@@ -7,17 +7,11 @@ ind = 0
 indm = 0
 otv = 0
 
-for i in range(kol * chal):
+for i in range(kol):
    tek = int(mas[ind])
-   if tek == 0:
-      indm += 1
-   else:
-      mas[ind] = tek - 1
-      otv += 1
-   ind += 1 
-   if ind == kol:
-      ind = indm
-      chal -= 1
-      if chal == 0:
-        break
+   if tek <= chal:
+      otv += tek
+   if tek > chal:
+      otv += chal
+   ind += 1
 print(otv)
